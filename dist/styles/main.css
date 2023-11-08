@@ -1,4 +1,29 @@
-@charset "UTF-8";
-/*relier, appeler un autre fichier ici _variables.scss, ici fichier mère*/
+/** mettre les variables ici**/
+html {
+  font-size: 62.5;
+}
 
+body {
+  font-size: 1.6rem;
+}
+
+header#header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+header#header nav li {
+  list-style-type: none;
+}
+header#header nav a {
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 12px;
+  padding: 10px 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+}
 /*# sourceMappingURL=main.css.map */

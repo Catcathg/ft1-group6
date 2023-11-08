@@ -1,0 +1,32 @@
+html {
+    font-size: 62.5;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+header#header {
+    nav {
+        ul {
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+        a {
+            color: $primary__color;
+            text-transform: uppercase;
+            text-decoration: none;
+            font-size: 12px;
+            padding: 10px 20px;
+            font-family: 'Inter', sans-serif;
+            font-weight: bold;
+        }
+    }
+}
+
