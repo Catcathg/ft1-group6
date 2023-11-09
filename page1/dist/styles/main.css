@@ -7,10 +7,12 @@ body {
   font-size: 1.6rem;
 }
 
-header#header nav ul {
+header#header nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+header#header nav ul {
   margin: 0;
   padding: 0;
 }
@@ -18,7 +20,7 @@ header#header nav li {
   list-style-type: none;
 }
 header#header nav a {
-  color: black;
+  color: purple;
   text-transform: uppercase;
   text-decoration: none;
   font-size: 12px;
@@ -26,4 +28,6 @@ header#header nav a {
   font-family: "Inter", sans-serif;
   font-weight: bold;
 }
-/*# sourceMappingURL=main.css.map */
+header#header nav .polygon {
+  position: absolute;
+}
