@@ -11,6 +11,10 @@ header#header nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #D6D4D4;
 }
 header#header nav ul {
   margin: 0;
@@ -20,7 +24,7 @@ header#header nav li {
   list-style-type: none;
 }
 header#header nav a {
-  color: purple;
+  color: black;
   text-transform: uppercase;
   text-decoration: none;
   font-size: 12px;
@@ -28,6 +32,64 @@ header#header nav a {
   font-family: "Inter", sans-serif;
   font-weight: bold;
 }
+header#header nav .nav_right {
+  padding-left: 500px;
+}
 header#header nav .polygon {
+  position: relative;
+  text-align: center;
+}
+header#header nav .polygon-text {
   position: absolute;
+  top: 35%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #009DF3;
+  font-size: 14px;
+  text-align: center;
+}
+
+.burger {
+  background-color: #3D3D3D;
+  width: 219.6px;
+  height: 656px;
+  position: relative;
+}
+.burger ul {
+  padding-left: 9px;
+}
+.burger li {
+  list-style-type: none;
+}
+.burger a {
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+  font-family: "Myriad Pro", sans-serif;
+  font-weight: 600;
+}
+.burger .burger_bottom_notification {
+  position: absolute;
+  bottom: 0;
+}
+.burger .burger_bottom_notification .fond {
+  position: relative;
+}
+.burger .burger_bottom_notification .notification {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+.burger .burger_bottom_weather {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+h1 {
+  font-family: "Myriad Pro", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  color: black;
 }

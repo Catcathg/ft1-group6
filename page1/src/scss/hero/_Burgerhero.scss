@@ -1,0 +1,44 @@
+.burger {
+    background-color: $burger_color;
+    width: 219.6px;
+    height: 656px;
+    position: relative;
+
+    ul {
+        padding-left: 9px;
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    a {
+        color: $third_color;
+        text-decoration: none;
+        font-size: 13px;
+        font-family: 'Myriad Pro', sans-serif;
+        font-weight: 600;
+    }
+
+    .burger_bottom_notification {
+        position: absolute;
+        bottom: 0;
+
+        .fond {
+            position: relative;
+        }
+
+        .notification {
+            position: absolute;
+            top: 10%;
+            left: 10%;
+        }
+    }
+
+    .burger_bottom_weather {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+}
+

@@ -9,6 +9,8 @@ body {
 header#header {
     nav {
         display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid $border_color;
 
         ul {
             margin: 0;
@@ -20,7 +22,7 @@ header#header {
         }
 
         a {
-            color: $secondary_color;
+            color: $primary__color;
             text-transform: uppercase;
             text-decoration: none;
             font-size: 12px;
@@ -29,10 +31,25 @@ header#header {
             font-weight: bold;
         }
 
+        .nav_right {
+            padding-left: 500px;
+        }
+
+
         .polygon {
-             position: absolute;
+            position: relative;
+            text-align: center;
+        }
+
+        .polygon-text {
+            position: absolute;
+            top: 35%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: $text_polygon_color;
+            font-size: 14px;
+            text-align: center;
         }
     }
 }
-
 
