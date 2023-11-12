@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/** mettre les variables ici**/
+/** LES VARIABLES **/
 html {
   font-size: 62.5;
 }
@@ -8,10 +8,9 @@ body {
   font-size: 1.6rem;
 }
 
+/***********HEADER************/
 header#header {
   height: 64px;
-  margin: 2px;
-  border-bottom: 1px solid #D6D4D4;
 }
 header#header nav {
   display: -webkit-box;
@@ -20,6 +19,14 @@ header#header nav {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 64px;
+  border-bottom: 1px solid #D6D4D4;
+}
+header#header nav .logo {
+  margin: 10px;
 }
 header#header nav ul {
   margin: 0;
@@ -36,13 +43,15 @@ header#header nav a {
   padding: 10px 20px;
   font-family: "Inter", sans-serif;
   font-weight: bold;
+  display: contents;
 }
 header#header nav .nav_right {
-  padding-left: 600px;
+  padding-left: 762px;
 }
 header#header nav .polygon {
   position: relative;
   text-align: center;
+  padding: 0px 38px 0px 38px;
 }
 header#header nav .polygon-text {
   position: absolute;
@@ -52,14 +61,15 @@ header#header nav .polygon-text {
           transform: translate(-50%, -50%);
   color: #009DF3;
   font-size: 14px;
-  text-align: center;
 }
 
+/***********BURGER LIST************/
 .burger {
   background-color: #3D3D3D;
   width: 219.6px;
   height: 656px;
   position: fixed;
+  /***********BURGER BOTTOM************/
 }
 .burger ul {
   padding-left: 9px;
@@ -118,6 +128,7 @@ header#header nav .polygon-text {
   color: white;
 }
 
+/***********BURGER BOTTOM BUTTON************/
 .burger_bottom_button {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -167,6 +178,7 @@ header#header nav .polygon-text {
   padding: 0px 5px 0px 5px;
 }
 
+/***********HERO NAV************/
 .hero {
   margin-left: 250px;
 }
@@ -230,10 +242,11 @@ header#header nav .polygon-text {
   margin-left: 12px;
 }
 
+/***********HERO CHANTIERS************/
 .chantier {
   margin-left: 250px;
   width: 684px;
-  height: 123px;
+  height: 145px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -241,6 +254,7 @@ header#header nav .polygon-text {
   border-radius: 2px;
   -webkit-box-shadow: 2px 2px 2px #D6D4D4;
           box-shadow: 2px 2px 2px #D6D4D4;
+  margin-bottom: 27px;
 }
 .chantier .container_chantier {
   display: -webkit-box;

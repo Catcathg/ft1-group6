@@ -6,6 +6,7 @@
     <title>Loxbooking</title>
     <meta name="description" content="description de ma page">
     <link rel="stylesheet" href="../page1/dist/styles/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
 </head>
 
 <body>
@@ -173,6 +174,15 @@
                         <img src="../page1/dist/images/materiel_image.png" alt="materiel image">
                     </div>
                 </div>
+                <div id="map" style="width: 360px; height: 600px; position:relative; margin-left: 140px;"></div>
+                <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+                <script>var map = L.map('map').setView([48.8566, 2.3522], 10);
+                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                        attribution: '© OpenStreetMap contributors'
+                    }).addTo(map); L.marker([48.7051, 2.3318]).addTo(map)
+                            .bindPopup('Morangis, France')
+                            .openPopup();
+                </script>
             </div>
         </div>
         <div class="chantier">
@@ -325,10 +335,6 @@
                 </div>
             </div>
         </div>
-
-
     </body>
-
-</body>
 
 </html>

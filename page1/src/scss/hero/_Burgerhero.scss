@@ -1,3 +1,4 @@
+/***********BURGER LIST************/
 .burger {
     background-color: $gray_color;
     width: 219.6px;
@@ -35,6 +36,7 @@
         display: flex;
     }
 
+/***********BURGER BOTTOM************/
     .burger_bottom {
 
         position: absolute;
@@ -74,6 +76,7 @@
     }
 }
 
+/***********BURGER BOTTOM BUTTON************/
 .burger_bottom_button {
     display: flex;
     justify-content: space-around;
