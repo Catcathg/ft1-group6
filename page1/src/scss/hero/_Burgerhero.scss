@@ -1,8 +1,8 @@
 .burger {
-    background-color: $burger_color;
+    background-color: $gray_color;
     width: 219.6px;
     height: 656px;
-    position: relative;
+    position: fixed;
 
     ul {
         padding-left: 9px;
@@ -19,6 +19,15 @@
 
         li {
             list-style-type: none;
+        }
+
+        span {
+            color: $third_color;
+            text-decoration: none;
+            font-size: 13px;
+            font-family: 'Myriad Pro', sans-serif;
+            font-weight: 600;
+            padding-left: 24px;
         }
     }
 
@@ -37,7 +46,7 @@
             .notification {
                 position: absolute;
                 top: 5%;
-                left: 16%;
+                left: 17%;
             }
 
             .burger_bottom_weather {
@@ -76,8 +85,8 @@
     .burger_bottom_container {
         display: flex;
         justify-content: space-between;
-        width: 150px;
-        padding: 20px;
+        width: 180px;
+        padding: 20px 0px 20px 5px;
         a {
             display: flex;
             padding: 10px;
@@ -99,10 +108,12 @@
 
         .button_message {
             background-color: $button_color;
+            padding: 0px 5px 0px 5px;
         }
 
         .button_nouveau {
             background-color: $button_color;
+            padding: 0px 5px 0px 5px;
         }
     }
 }

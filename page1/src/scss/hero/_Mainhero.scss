@@ -1,7 +1,55 @@
-h1 {
-    font-family: 'Myriad Pro', sans-serif;
-    font-weight: bold;
-    font-size: 36px;
-    color: $primary__color;
-}
+.hero {
+    margin-left: 250px;
 
+    .hero_nav {
+        display: flex;
+        align-items: center;
+
+        h1 {
+            font-family: 'Myriad Pro', sans-serif;
+            font-weight: bold;
+            font-size: 25px;
+            color: $primary__color;
+            margin-right: 10px;
+        }
+
+        .search_nav {
+            width: 391px;
+            height: 33px;
+            border: 1px solid $gray_color;
+            border-radius: 1px;
+            background-color: transparent;
+            display: flex;
+            align-items: center;
+
+            span {
+                font-family: 'Myriad Pro';
+                font-size: 12px;
+                color: $recherche_nav_color;
+                margin-left: 5px;
+            }
+        }
+
+        .iconFond_hero_nav {
+            width: 31px;
+            height: 33px;
+            border: 1px solid $gray_color;
+            background-color: $gray_color;
+
+            .icon_reverse {
+                margin-left: 8px;
+            }
+        }
+
+        .hero_date {
+            font-family: 'Inter', sans-serif;
+            font-size: 14px;
+            color: $primary__color;
+            margin-left: 12px;
+        }
+    }
+
+
+
+
+}

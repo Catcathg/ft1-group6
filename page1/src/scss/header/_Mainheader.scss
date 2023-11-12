@@ -7,11 +7,14 @@ body {
 }
 
 header#header {
+    height: 64px;
+    margin: 2px;
+    border-bottom: 1px solid $border_color;
+
     nav {
         display: flex;
         justify-content: space-between;
-        border-bottom: 1px solid $border_color;
-
+        
         ul {
             margin: 0;
             padding: 0;
@@ -32,7 +35,7 @@ header#header {
         }
 
         .nav_right {
-            padding-left: 500px;
+            padding-left: 600px;
         }
 
 
