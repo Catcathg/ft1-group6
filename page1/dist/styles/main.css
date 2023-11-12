@@ -177,6 +177,7 @@ header#header nav .polygon-text {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-bottom: 42px;
 }
 .hero .hero_nav h1 {
   font-family: "Myriad Pro", sans-serif;
@@ -185,7 +186,16 @@ header#header nav .polygon-text {
   color: black;
   margin-right: 10px;
 }
-.hero .hero_nav .search_nav {
+.hero .hero_nav .hero_nav_right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 23px;
+}
+.hero .hero_nav .hero_nav_right .search_nav {
   width: 391px;
   height: 33px;
   border: 1px solid #3D3D3D;
@@ -198,24 +208,89 @@ header#header nav .polygon-text {
       -ms-flex-align: center;
           align-items: center;
 }
-.hero .hero_nav .search_nav span {
+.hero .hero_nav .hero_nav_right .search_nav span {
   font-family: "Myriad Pro";
   font-size: 12px;
   color: #BDBBBB;
   margin-left: 5px;
 }
-.hero .hero_nav .iconFond_hero_nav {
+.hero .hero_nav .hero_nav_right .iconFond_hero_nav {
   width: 31px;
   height: 33px;
   border: 1px solid #3D3D3D;
   background-color: #3D3D3D;
 }
-.hero .hero_nav .iconFond_hero_nav .icon_reverse {
+.hero .hero_nav .hero_nav_right .iconFond_hero_nav .icon_reverse {
   margin-left: 8px;
 }
-.hero .hero_nav .hero_date {
+.hero .hero_nav .hero_nav_right .hero_date {
   font-family: "Inter", sans-serif;
   font-size: 14px;
   color: black;
   margin-left: 12px;
+}
+
+.chantier {
+  margin-left: 250px;
+  width: 684px;
+  height: 123px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #F0EDED;
+  border-radius: 2px;
+  -webkit-box-shadow: 2px 2px 2px #D6D4D4;
+          box-shadow: 2px 2px 2px #D6D4D4;
+}
+.chantier .container_chantier {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 50px;
+}
+.chantier .container_chantier .info_chantier .chantier_brand .text_logo_chantier {
+  font-family: "Myriad Pro", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #D2091E;
+}
+.chantier .container_chantier .info_chantier .info_brand {
+  width: 226px;
+  height: 65px;
+  font-family: "Myriad Pro", sans-serif;
+  font-size: 14px;
+}
+.chantier .container_chantier .info_client {
+  display: -ms-grid;
+  display: grid;
+}
+.chantier .container_chantier .info_client .contact {
+  padding: 10px;
+}
+.chantier .container_chantier .info_client .contact,
+.chantier .container_chantier .info_client .prenom {
+  font-family: "Inter", sans-serif;
+  font-size: 11px;
+  color: black;
+}
+.chantier .container_chantier .info_client .text_info_client {
+  padding: 20px;
+}
+.chantier .container_chantier .info_client .text_info_client .numero {
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+  color: black;
+}
+.chantier .container_chantier .materiel_louer .text_meteriel {
+  font-family: "Inter", sans-serif;
+  font-size: 11px;
+  color: black;
+  padding: 10px;
+}
+.chantier .container_chantier .materiel_louer .image_meteriel {
+  padding: 5px 25px;
+}
+.chantier .container_chantier .line {
+  padding: 12px;
 }
