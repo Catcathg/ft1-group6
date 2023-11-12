@@ -4,11 +4,20 @@ html {
   font-size: 62.5;
 }
 
+/*********** BODY ************/
 body {
   font-size: 1.6rem;
 }
 
-/***********HEADER************/
+/*********** MAP ************/
+#map {
+  width: 360px;
+  height: 680px;
+  position: relative;
+  margin-left: 140px;
+}
+
+/*********** HEADER ************/
 header#header {
   height: 64px;
 }
@@ -63,13 +72,13 @@ header#header nav .polygon-text {
   font-size: 14px;
 }
 
-/***********BURGER LIST************/
+/*********** BURGER LIST ************/
 .burger {
   background-color: #3D3D3D;
   width: 219.6px;
   height: 656px;
   position: fixed;
-  /***********BURGER BOTTOM************/
+  /*********** BURGER BOTTOM ************/
 }
 .burger ul {
   padding-left: 9px;
@@ -128,7 +137,7 @@ header#header nav .polygon-text {
   color: white;
 }
 
-/***********BURGER BOTTOM BUTTON************/
+/*********** BURGER BOTTOM BUTTON ************/
 .burger_bottom_button {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -178,7 +187,7 @@ header#header nav .polygon-text {
   padding: 0px 5px 0px 5px;
 }
 
-/***********HERO NAV************/
+/*********** HERO NAV ************/
 .hero {
   margin-left: 250px;
 }
@@ -242,7 +251,7 @@ header#header nav .polygon-text {
   margin-left: 12px;
 }
 
-/***********HERO CHANTIERS************/
+/*********** HERO CHANTIERS ************/
 .chantier {
   margin-left: 250px;
   width: 684px;

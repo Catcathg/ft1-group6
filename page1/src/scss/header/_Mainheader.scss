@@ -2,12 +2,21 @@ html {
     font-size: 62.5;
 }
 
+/*********** BODY ************/
 body {
     font-size: 1.6rem;
 }
 
+/*********** MAP ************/
+#map {
+    width: 360px; 
+    height: 680px; 
+    position:relative; 
+    margin-left: 140px;
+}
 
-/***********HEADER************/
+
+/*********** HEADER ************/
 header#header {
     height: 64px;
 
