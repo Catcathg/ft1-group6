@@ -1,12 +1,26 @@
-/** mettre les variables ici**/
+@charset "UTF-8";
+/** LES VARIABLES **/
 html {
   font-size: 62.5;
 }
 
+/*********** BODY ************/
 body {
   font-size: 1.6rem;
 }
 
+/*********** MAP ************/
+#map {
+  width: 360px;
+  height: 680px;
+  position: relative;
+  margin-left: 140px;
+}
+
+/*********** HEADER ************/
+header#header {
+  height: 64px;
+}
 header#header nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -14,7 +28,14 @@ header#header nav {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 64px;
   border-bottom: 1px solid #D6D4D4;
+}
+header#header nav .logo {
+  margin: 10px;
 }
 header#header nav ul {
   margin: 0;
@@ -31,65 +52,268 @@ header#header nav a {
   padding: 10px 20px;
   font-family: "Inter", sans-serif;
   font-weight: bold;
+  display: contents;
 }
 header#header nav .nav_right {
-  padding-left: 500px;
+  padding-left: 762px;
 }
 header#header nav .polygon {
   position: relative;
   text-align: center;
+  padding: 0px 38px 0px 38px;
 }
 header#header nav .polygon-text {
   position: absolute;
-  top: 35%;
+  top: 40%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   color: #009DF3;
   font-size: 14px;
-  text-align: center;
 }
 
+/*********** BURGER LIST ************/
 .burger {
   background-color: #3D3D3D;
   width: 219.6px;
   height: 656px;
-  position: relative;
+  position: fixed;
+  /*********** BURGER BOTTOM ************/
 }
 .burger ul {
   padding-left: 9px;
 }
-.burger li {
-  list-style-type: none;
-}
-.burger a {
+.burger .list_burger a {
   color: white;
   text-decoration: none;
   font-size: 13px;
   font-family: "Myriad Pro", sans-serif;
   font-weight: 600;
 }
-.burger .burger_bottom_notification {
+.burger .list_burger li {
+  list-style-type: none;
+}
+.burger .list_burger span {
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+  font-family: "Myriad Pro", sans-serif;
+  font-weight: 600;
+  padding-left: 24px;
+}
+.burger #text_réservations {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.burger .burger_bottom {
   position: absolute;
   bottom: 0;
 }
-.burger .burger_bottom_notification .fond {
-  position: relative;
+.burger .burger_bottom .burger_bottom_image {
+  padding-left: 30px;
 }
-.burger .burger_bottom_notification .notification {
+.burger .burger_bottom .burger_bottom_image .notification {
   position: absolute;
-  top: 10%;
-  left: 10%;
+  top: 5%;
+  left: 17%;
 }
-.burger .burger_bottom_weather {
-  position: absolute;
-  bottom: 0;
-  right: 0;
+.burger .burger_bottom .burger_bottom_image .burger_bottom_weather {
+  display: inline-block;
+  padding-left: 60px;
+}
+.burger .burger_bottom .burger_bottom_image .burger_bottom_weather .burger_bottom_text {
+  display: inherit;
+}
+.burger .burger_bottom .burger_bottom_image .burger_bottom_weather .burger_bottom_text .degrès {
+  font-family: "Myriad Pro";
+  font-size: 11px;
+  color: white;
+}
+.burger .burger_bottom .burger_bottom_image .burger_bottom_weather .burger_bottom_text .vitesse {
+  display: block;
+  font-family: "Myriad Pro";
+  font-size: 11px;
+  color: white;
 }
 
-h1 {
+/*********** BURGER BOTTOM BUTTON ************/
+.burger_bottom_button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.burger_bottom_button .bouton_flèche {
+  margin: 5px;
+}
+.burger_bottom_button .burger_bottom_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 180px;
+  padding: 20px 0px 20px 5px;
+}
+.burger_bottom_button .burger_bottom_container a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  font-family: "Myriad Pro";
+  text-decoration: none;
+  font-size: 12px;
+  color: white;
+  padding-right: 20px;
+}
+.burger_bottom_button .burger_bottom_container li {
+  background-color: #A3A2A2;
+  list-style-type: none;
+}
+.burger_bottom_button .burger_bottom_container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.burger_bottom_button .burger_bottom_container .button_message {
+  background-color: #A3A2A2;
+  padding: 0px 5px 0px 5px;
+}
+.burger_bottom_button .burger_bottom_container .button_nouveau {
+  background-color: #A3A2A2;
+  padding: 0px 5px 0px 5px;
+}
+
+/*********** HERO NAV ************/
+.hero {
+  margin-left: 250px;
+}
+.hero .hero_nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 42px;
+}
+.hero .hero_nav h1 {
   font-family: "Myriad Pro", sans-serif;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 25px;
   color: black;
+  margin-right: 10px;
+}
+.hero .hero_nav .hero_nav_right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 23px;
+}
+.hero .hero_nav .hero_nav_right .search_nav {
+  width: 391px;
+  height: 33px;
+  border: 1px solid #3D3D3D;
+  border-radius: 1px;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.hero .hero_nav .hero_nav_right .search_nav span {
+  font-family: "Myriad Pro";
+  font-size: 12px;
+  color: #BDBBBB;
+  margin-left: 5px;
+}
+.hero .hero_nav .hero_nav_right .iconFond_hero_nav {
+  width: 31px;
+  height: 33px;
+  border: 1px solid #3D3D3D;
+  background-color: #3D3D3D;
+}
+.hero .hero_nav .hero_nav_right .iconFond_hero_nav .icon_reverse {
+  margin-left: 8px;
+}
+.hero .hero_nav .hero_nav_right .hero_date {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  color: black;
+  margin-left: 12px;
+}
+
+/*********** HERO CHANTIERS ************/
+.chantier {
+  margin-left: 250px;
+  width: 684px;
+  height: 145px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #F0EDED;
+  border-radius: 2px;
+  -webkit-box-shadow: 2px 2px 2px #D6D4D4;
+          box-shadow: 2px 2px 2px #D6D4D4;
+  margin-bottom: 27px;
+}
+.chantier .container_chantier {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 50px;
+}
+.chantier .container_chantier .info_chantier .chantier_brand .text_logo_chantier {
+  font-family: "Myriad Pro", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #D2091E;
+}
+.chantier .container_chantier .info_chantier .info_brand {
+  width: 226px;
+  height: 65px;
+  font-family: "Myriad Pro", sans-serif;
+  font-size: 14px;
+}
+.chantier .container_chantier .info_client {
+  display: -ms-grid;
+  display: grid;
+}
+.chantier .container_chantier .info_client .contact {
+  padding: 10px;
+}
+.chantier .container_chantier .info_client .contact,
+.chantier .container_chantier .info_client .prenom {
+  font-family: "Inter", sans-serif;
+  font-size: 11px;
+  color: black;
+}
+.chantier .container_chantier .info_client .text_info_client {
+  padding: 20px;
+}
+.chantier .container_chantier .info_client .text_info_client .numero {
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+  color: black;
+}
+.chantier .container_chantier .materiel_louer .text_meteriel {
+  font-family: "Inter", sans-serif;
+  font-size: 11px;
+  color: black;
+  padding: 10px;
+}
+.chantier .container_chantier .materiel_louer .image_meteriel {
+  padding: 5px 25px;
+}
+.chantier .container_chantier .line {
+  padding: 12px;
 }

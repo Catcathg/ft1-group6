@@ -1,44 +1,122 @@
+/*********** BURGER LIST ************/
 .burger {
-    background-color: $burger_color;
+    background-color: $gray_color;
     width: 219.6px;
     height: 656px;
-    position: relative;
+    position: fixed;
 
     ul {
         padding-left: 9px;
     }
 
-    li {
-        list-style-type: none;
-    }
-
-    a {
-        color: $third_color;
-        text-decoration: none;
-        font-size: 13px;
-        font-family: 'Myriad Pro', sans-serif;
-        font-weight: 600;
-    }
-
-    .burger_bottom_notification {
-        position: absolute;
-        bottom: 0;
-
-        .fond {
-            position: relative;
+    .list_burger {
+        a {
+            color: $third_color;
+            text-decoration: none;
+            font-size: 13px;
+            font-family: 'Myriad Pro', sans-serif;
+            font-weight: 600;
         }
 
-        .notification {
-            position: absolute;
-            top: 10%;
-            left: 10%;
+        li {
+            list-style-type: none;
+        }
+
+        span {
+            color: $third_color;
+            text-decoration: none;
+            font-size: 13px;
+            font-family: 'Myriad Pro', sans-serif;
+            font-weight: 600;
+            padding-left: 24px;
         }
     }
 
-    .burger_bottom_weather {
+    #text_réservations {
+        display: flex;
+    }
+
+/*********** BURGER BOTTOM ************/
+    .burger_bottom {
+
         position: absolute;
         bottom: 0;
-        right: 0;
+
+        .burger_bottom_image {
+            padding-left: 30px;
+
+            .notification {
+                position: absolute;
+                top: 5%;
+                left: 17%;
+            }
+
+            .burger_bottom_weather {
+                display: inline-block;
+                padding-left: 60px;
+
+                .burger_bottom_text {
+                    display: inherit;
+
+                    .degrès {
+                        font-family: 'Myriad Pro';
+                        font-size: 11px;
+                        color: $third_color;
+                    }
+
+                    .vitesse {
+                        display: block;
+                        font-family: 'Myriad Pro';
+                        font-size: 11px;
+                        color: $third_color;
+                    }
+                }
+            }
+        }
     }
 }
 
+/*********** BURGER BOTTOM BUTTON ************/
+.burger_bottom_button {
+    display: flex;
+    justify-content: space-around;
+
+    .bouton_flèche {
+        margin: 5px;
+    }
+
+    .burger_bottom_container {
+        display: flex;
+        justify-content: space-between;
+        width: 180px;
+        padding: 20px 0px 20px 5px;
+        a {
+            display: flex;
+            padding: 10px;
+            font-family: 'Myriad Pro';
+            text-decoration: none;
+            font-size: 12px;
+            color: $third_color;
+            padding-right: 20px;
+        }
+
+        li {
+            background-color: $button_color;
+            list-style-type: none;
+        }
+
+        ul {
+            display: flex;
+        }
+
+        .button_message {
+            background-color: $button_color;
+            padding: 0px 5px 0px 5px;
+        }
+
+        .button_nouveau {
+            background-color: $button_color;
+            padding: 0px 5px 0px 5px;
+        }
+    }
+}
