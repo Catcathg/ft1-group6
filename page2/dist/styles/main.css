@@ -38,7 +38,7 @@ header .textretour {
   text-decoration: none;
   width: 107px;
   height: 48px;
-  margin-bottom: 20px;
+  margin-top: 24px;
 }
 header .headpt2 {
   display: flex;
@@ -69,9 +69,6 @@ body {
   background-color: #F7F6F5;
 }
 
-.hero {
-  display: flex;
-}
 .hero .infochantier {
   width: 865px;
   height: 291px;
@@ -105,6 +102,11 @@ body {
 .hero .infochantier .lesinfoch li {
   display: flex;
 }
+.hero .infochantier .lesinfoch span {
+  color: var(--noir, #000);
+  font-family: Myriad Pro;
+  font-size: 24px;
+}
 .hero .rondmap {
   width: 235px;
   height: 235px;
@@ -115,6 +117,41 @@ body {
   margin-top: 52px;
   margin-right: 87px;
   margin-left: 53px;
+  display: flex;
+}
+.hero .boutonffc {
+  width: 1159px;
+  height: 252px;
+  border-radius: 10px;
+  border: 1px solid var(--rougerouge-700, #D23243);
+  background: var(--Blanc, #FFF);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin-left: 62px;
+  margin-top: 37px;
+}
+.hero .boutonffc ul {
+  display: flex;
+}
+.hero .boutonffc li {
+  display: flex;
+}
+.hero .boutonffc .butfactures {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero .boutonffc .butfiches {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero .boutonffc .butcontrats {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=main.css.map */
