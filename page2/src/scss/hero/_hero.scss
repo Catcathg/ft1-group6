@@ -3,8 +3,11 @@ body{
 }
 
 .hero{ 
-    
-.infochantier {
+
+    .inchomap{
+
+        
+    .infochantier {
     width: 865px;
     height: 291px;
     border-radius: 10px;
@@ -40,20 +43,41 @@ body{
     }
     }
     .lesinfoch{ 
+        .infoch1{
+            margin-top: -35px;
+            margin-left: 2px;
+        }
+        .infoch2{
+            margin-top: 20px;
+        }
+        .infoch3{
+            margin-top: 20px;
+        }
+        .infoch4{
+            margin-top: 20px;
+            margin-left: -4px;
+        }
+    li{
+        display: flex;
 
-    li{display: flex;
-        
     }
+    .textinfo{
+        font-weight: 300;
+        margin-left: 14px;
+    }
+    
     span{
         color: var(--noir, #000);
         font-family: Myriad Pro;
         font-size: 24px;
+        margin-left: 15px;
+
     }
     
    
     }
-}
-.rondmap{
+
+    .rondmap{
     width: 235px;
     height: 235px;
     border-radius: 180px;
@@ -64,6 +88,10 @@ body{
     margin-right: 87px;
     margin-left: 53px;
     display: flex;
+
+}
+
+}
 
 }
 

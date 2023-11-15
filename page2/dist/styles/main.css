@@ -69,7 +69,7 @@ body {
   background-color: #F7F6F5;
 }
 
-.hero .infochantier {
+.hero .inchomap .infochantier {
   width: 865px;
   height: 291px;
   border-radius: 10px;
@@ -79,11 +79,11 @@ body {
   margin-left: 60px;
   margin-top: 57px;
 }
-.hero .infochantier .infoch_crayon {
+.hero .inchomap .infochantier .infoch_crayon {
   display: flex;
   justify-content: space-between;
 }
-.hero .infochantier .infoch_crayon h3 {
+.hero .inchomap .infochantier .infoch_crayon h3 {
   color: var(--noir, #000);
   font-family: "Myriad Pro", sans-serif;
   font-size: 32px;
@@ -93,21 +93,40 @@ body {
   margin-top: 8px;
   margin-left: 11px;
 }
-.hero .infochantier .infoch_crayon img {
+.hero .inchomap .infochantier .infoch_crayon img {
   margin-right: 23px;
   margin-top: 9px;
   width: 45px;
   height: 45px;
 }
-.hero .infochantier .lesinfoch li {
+.hero .inchomap .infochantier .lesinfoch .infoch1 {
+  margin-top: -35px;
+  margin-left: 2px;
+}
+.hero .inchomap .infochantier .lesinfoch .infoch2 {
+  margin-top: 20px;
+}
+.hero .inchomap .infochantier .lesinfoch .infoch3 {
+  margin-top: 20px;
+}
+.hero .inchomap .infochantier .lesinfoch .infoch4 {
+  margin-top: 20px;
+  margin-left: -4px;
+}
+.hero .inchomap .infochantier .lesinfoch li {
   display: flex;
 }
-.hero .infochantier .lesinfoch span {
+.hero .inchomap .infochantier .lesinfoch .textinfo {
+  font-weight: 300;
+  margin-left: 14px;
+}
+.hero .inchomap .infochantier .lesinfoch span {
   color: var(--noir, #000);
   font-family: Myriad Pro;
   font-size: 24px;
+  margin-left: 15px;
 }
-.hero .rondmap {
+.hero .inchomap .infochantier .rondmap {
   width: 235px;
   height: 235px;
   border-radius: 180px;
