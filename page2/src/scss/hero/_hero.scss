@@ -112,12 +112,15 @@ body{
 
     li{
         display: flex;
+        margin-top: 35px;
     }
     .butfactures{
         display: inline-flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-left: 125px;
+
         
     }
     .butfiches{
@@ -126,6 +129,7 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-left: 230px;
     
     }
     .butcontrats{
@@ -133,6 +137,7 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-left: 230px;
 
     }
 

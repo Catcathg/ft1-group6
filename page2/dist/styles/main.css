@@ -153,24 +153,28 @@ body {
 }
 .hero .boutonffc li {
   display: flex;
+  margin-top: 35px;
 }
 .hero .boutonffc .butfactures {
   display: inline-flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-left: 125px;
 }
 .hero .boutonffc .butfiches {
   display: inline-flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-left: 230px;
 }
 .hero .boutonffc .butcontrats {
   display: inline-flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-left: 230px;
 }
 
 /*# sourceMappingURL=main.css.map */
