@@ -1,0 +1,100 @@
+html {
+  font-size: 62.5;
+}
+
+/*********** BODY ************/
+body {
+  font-size: 1.6rem;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+header#header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  margin: 17px;
+  border: 1px solid #D9D9D9;
+}
+header#header nav .nav_left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px;
+}
+header#header nav .nav_left .contrat_text {
+  font-family: "Inter", sans-serif;
+  font-size: 36px;
+  color: black;
+}
+header#header nav .numero_client {
+  font-family: "Myriad Pro", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  margin: 20px;
+}
+
+.hero .container_search_bar {
+  width: 1300px;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 24px 0px 97.73px 0px;
+}
+.hero .container_search_bar .search_bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 391px;
+  height: 33px;
+  border-radius: 16px;
+  border: 1px solid #3D3D3D;
+  font-family: "Myriad Pro", sans-serif;
+  font-size: 12px;
+  color: #BDBBBB;
+}
+.hero .container_search_bar span {
+  margin: 12px;
+}
+.hero .container_search_bar .icon_search {
+  margin: 9.07px;
+}
+.hero .folder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.hero .folder .bleu_fonce {
+  position: absolute;
+}
+.hero .folder_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
