@@ -1,0 +1,293 @@
+/****
+.infochantier {
+    width: 865px;
+    height: 291px;
+    border-radius: 10px;
+    border: 1px solid var(--rougerouge-700, #D23243);
+    background: var(--Blanc, #FFF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 60px;
+    margin-top: 57px;
+
+    .infoch_crayon {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    h3 {
+        color: var(--noir, #000);
+        font-family: 'Myriad Pro', sans-serif;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 8px;
+        margin-left: 11px;
+    }
+
+    img {
+        margin-right: 23px;
+        margin-top: 9px;
+        width: 45px;
+        height: 45px;
+    }
+
+
+    .lesinfoch {
+        .infoch1 {
+            margin-top: -35px;
+            margin-left: 2px;
+        }
+
+        .infoch2 {
+            margin-top: 20px;
+        }
+
+        .infoch3 {
+            margin-top: 20px;
+        }
+
+        .infoch4 {
+            margin-top: 20px;
+            margin-left: -4px;
+        }
+
+        li {
+            display: flex;
+        }
+
+        .textinfo {
+            font-weight: 300;
+            margin-left: 14px;
+        }
+
+        span {
+            color: var(--noir, #000);
+            font-family: Myriad Pro;
+            font-size: 24px;
+            margin-left: 15px;
+        }
+    }
+
+    .rondmap {
+        width: 235px;
+        height: 235px;
+        border-radius: 180px;
+        border: 1px solid var(--rougerouge-700, $primary_color);
+        background: var(--Blanc, #FFF);
+        box-shadow: 8px 8px 10px 2px rgba(217, 217, 217, 0.25) inset;
+        margin-top: 52px;
+        margin-right: 87px;
+        margin-left: 53px;
+        display: flex;
+    }
+
+    .boutonffc {
+        width: 1159px;
+        height: 252px;
+        border-radius: 10px;
+        border: 1px solid var(--rougerouge-700, #D23243);
+        background: var(--Blanc, #FFF);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        margin-left: 62px;
+        margin-top: 37px;
+
+        ul {
+            display: flex;
+        }
+
+        li {
+            display: flex;
+            margin-top: 35px;
+        }
+
+        .butfactures {
+            display: inline-flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-left: 125px;
+        }
+
+        .butfiches {
+            display: inline-flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-left: 230px;
+        }
+
+        .butcontrats {
+            display: inline-flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-left: 230px;
+        }
+    }
+
+    .infomat {
+        width: 1159px;
+        height: 717px;
+        border-radius: 10px;
+        border: 1px solid var(--rougerouge-700, #D23243);
+        background: var(--Blanc, #FFF);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        margin-left: 62px;
+        margin-top: 37px;
+    }
+
+    .headinfomat {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .imgheadin {
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+
+    .iconplus {
+        margin-right: 25px;
+    }
+
+    h3 {
+        color: var(--noir, #000);
+        font-family: 'Myriad Pro', sans-serif;
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+
+    .fichemateriel {
+
+        width: 1040px;
+        height: 173px;
+        border-radius: 8px;
+        border: 1px solid #EFEFF0;
+        background: var(--Blanc, #FFF);
+        box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        margin-left: 36px;
+        margin-top: 15px;
+    }
+
+    .imgdelamat {
+        display: flex;
+        width: 100px;
+        height: 100px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 14px;
+        border: 1px solid var(--rougerouge-50, #D2C5C7);
+        background: var(--Blanc, #FFF);
+        padding-left: 55px;
+        padding-top: 20px;
+        padding-right: 63px;
+        padding-bottom: 18px;
+        margin-top: 17px;
+        margin-left: 13px;
+    }
+
+    .fichebloc1 {
+        .infomat1 {
+            margin-top: 5px;
+            margin-left: 2px;
+        }
+
+        .infomat2 {
+            margin-top: 20px;
+        }
+
+        .infomat3 {
+            margin-top: 20px;
+
+            img {
+                margin-left: 3px;
+            }
+        }
+
+        li {
+            display: flex;
+
+        }
+
+        img {
+            padding-right: 10px;
+        }
+
+        .textinfo {
+            color: var(--noir, #000);
+            font-family: Myriad Pro;
+            font-size: 21px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0.08px;
+            margin-top: 3px;
+        }
+
+        span {
+            color: var(--noir, #000);
+            font-family: Myriad Pro;
+            font-size: 19px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 20px;
+            letter-spacing: 0.08px;
+            margin-left: 5px;
+            margin-top: 3px;
+        }
+    }
+
+    .fichebloc2 {
+        margin-top: 22px;
+        margin-right: 0px;
+
+        .infomat1 {
+            margin-top: 0px;
+            margin-left: 2px;
+        }
+
+        .infomat2 {
+            margin-top: 20px;
+        }
+
+        .infomat3 {
+            margin-top: 20px;
+        }
+
+        li {
+            display: flex;
+
+        }
+
+        img {
+            padding-right: 10px;
+        }
+
+        .textinfo {
+            color: var(--noir, #000);
+            font-family: Myriad Pro;
+            font-size: 21px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0.08px;
+            margin-top: 2px;
+        }
+
+        span {
+            color: var(--noir, #000);
+            font-family: Myriad Pro;
+            font-size: 19px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 20px;
+            letter-spacing: 0.08px;
+            margin-left: 3px;
+            margin-top: 2px;
+        }
+    }**/

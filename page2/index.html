@@ -6,76 +6,80 @@
     <title>Loxbooking</title>
     <meta name="Chantier" content="Fiche d'un chantier">
     <link rel="stylesheet" href="../page2/dist/styles/main.css">
+    <!-- <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" /> -->
+
 </head>
 
 <body>
-    <header>
-        
-            <div class="headpt1">
-                <a class="flecheretour" href="../page1/index.html"><img src="../page2/dist/images/arrox left 2.svg"></a>
-                <a class="textretour" href="../page1/index.html">Retour</a>
-            </div>
+    <header id="header">
+        <div class="headpt1">
+            <a class="flecheretour" href="../page1/index.html"><img src="../page2/dist/images/arrox left 2.svg"></a>
+            <a class="textretour" href="../page1/index.html">Retour</a>
+        </div>
 
-            <div class="headpt2">
-                <img class="logocolas" src="../page2/dist/images/Logo colas.png" alt="Logo Colas">
-                <h2 class="titrechantier">Chantier Colas</h2>
-            </div>
+        <div class="headpt2">
+            <img class="logocolas" src="../page2/dist/images/Logo colas.png" alt="Logo Colas">
+            <h2 class="titrechantier">Chantier Colas</h2>
+        </div>
 
-            <div class="headpt3">
-                <p>32412385648 - IPC</p>
-            </div>
-
+        <div class="headpt3">
+            <p>32412385648 - IPC</p>
+        </div>
     </header>
 
     <div class="hero">
-
-        <div class="inchomap">
-
+        <div class="nav_hero">
             <div class="infochantier">
-            
-            <container class="infoch_crayon">
-                <h3>Informations Chantier</h3>
-                <img class="crayonmodif" src="../page2/dist/images/crayonmodif.svg" alt="crayon pour modifier info">
-            </container>
-            
-            <div class="lesinfoch">
-                <ul>
-                    <li class="infoch1">
-                        <img src="../page2/dist/images/iconlocalisation.svg" alt="icone localisation"> <div class="textinfo">Adresse :</div>
-                        <span>   6 rue Gustave Eiffel 91420 Morangis</span>
-                    </li>
+                <container class="container">
+                    <h3>Informations Chantier</h3>
+                    <img class="crayonmodif" src="../page2/dist/images/crayonmodif.svg" alt="crayon pour modifier info">
+                </container>
 
-                    <li class="infoch2">
-                        <img src="../page2/dist/images/iconagenda.svg" alt="icone agenda/date"><div class="textinfo">Dates :</div>
-                        <span>   Du 10/10/2023 au 25/01/2024</span>
-                    </li>
+                <div class="lesinfoch">
+                    <ul>
+                        <li class="infoch1">
+                            <img src="../page2/dist/images/iconlocalisation.svg" alt="icone localisation">
+                            <div class="adresse">
+                                <div class="textinfo">Adresse :</div>
+                                <span>6 rue Gustave Eiffel 91420 Morangis</span>
+                            </div>
+                        </li>
 
-                    <li class="infoch3">
-                        <img src="../page2/dist/images/iconcontact.svg" alt="icone contact"><div class="textinfo">Personnes associés :</div>
-                        <span>   Stéphane Lacroix</span>
-                    </li>
+                        <li class="infoch2">
+                            <img src="../page2/dist/images/iconagenda.svg" alt="icone agenda/date">
+                            <div class="adresse">
+                                <div class="textinfo">Dates :</div>
+                                <span>Du 10/10/2023 au 25/01/2024</span>
+                            </div>
+                        </li>
 
-                    <li class="infoch4">
-                        <img src="../page2/dist/images/iconmaison.svg" alt="icone maison"><div class="textinfo">Agences associés :</div>
-                        <span>   3240-Morangis</span>
-                    </li>
-                </ul>
-            </div>
+                        <li class="infoch3">
+                            <img src="../page2/dist/images/iconcontact.svg" alt="icone contact">
+                            <div class="adresse">
+                                <div class="textinfo">Personnes associés :</div>
+                                <span>Stéphane Lacroix</span>
+                            </div>
+                        </li>
 
-            <div class="rondmap"></div>
-            <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-                <script>var map = L.map('map').setView([48.8566, 2.3522], 10);
-                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                        attribution: '© OpenStreetMap contributors'
-                    }).addTo(map); L.marker([48.7051, 2.3318]).addTo(map)
-                        .bindPopup('Morangis, France')
-                        .openPopup();
-                </script>
-
+                        <li class="infoch4">
+                            <img src="../page2/dist/images/iconmaison.svg" alt="icone maison">
+                            <div class="adresse">
+                                <div class="textinfo">Agences associés :</div>
+                                <span>3240-Morangis</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
+        <div class="rondmap"></div>
+    </div>
 
-        <div class="boutonffc">
+
+
+
+
+        <!--  <div class="boutonffc">
             <ul>
                 <li class="butfactures">
                     <a href="#"><img src="../page2/dist/images/icondocument.svg"></a>
@@ -92,9 +96,9 @@
                     <span>Contrats</span>
                 </li>
             </ul>
-        </div>
+     
 
-        <div class="infomat">
+      <div class="infomat">
             <div class="headinfomat">
                 <h3>Informations Matériel</h3>
                 <container class="imgheadin" >
@@ -104,7 +108,6 @@
             </div>
         
             <div class="fichemateriel"></div>
-                <div class="fichmaté1">
                 
                     <div class="imgdelamat">
                         <img src="../page2/dist/images/tempImageLOpmx1 1.svg" alt="image du matériel">
@@ -142,53 +145,8 @@
                         </li>
                     </ul>
                     </div>
-                </div>
-
-                <div class="fichmaté2">
-                    <div class="imgdelamat">
-                        <img src="../page2/dist/images/tempImageLOpmx1 1.svg" alt="image du matériel">
-                    </div>
-
-                    <div class="fichebloc1">
-                    <ul>
-                        <li class="infomat1">
-                            <img src="../page2/dist/images/logocamion.svg" alt="icone nom"> <div class="textinfo">Nom :</div>
-                            <span>Minipelle sur chenilles</span>
-                        </li>
-    
-                        <li class="infomat2">
-                            <img src="../page2/dist/images/iconmaison.svg" alt="icone maison"><div class="textinfo">Agences associés :</div>
-                            <span>3240-Morangis</span>
-                        </li>
-    
-                        <li class="infomat3">
-                            <img src="../page2/dist/images/iconagenda.svg" alt="icone agenda"><div class="textinfo">Dernière révision :</div>
-                            <span>10/10/2023</span>
-                        </li>
-                    </ul>
-                    </div>
-
-                    <div class="fichebloc2">
-                    <ul>
-                        <li class="infomat1">
-                            <img src="../page2/dist/images/iconagenda.svg" alt="icone nom"> <div class="textinfo">Dates de location :</div>
-                            <span>11/11/2023 au 19/01/2023</span>
-                        </li>
-
-                        <li class="infomat2">
-                            <img src="../page2/dist/images/logocamion.svg" alt="icone maison"><div class="textinfo">Livraison effectuée</div>
-                            <span>le 11/11/2023</span>
-                        </li>
-                    </ul>
-                    </div>
-                </div>
-
             </div>
-          
-
-        </div>
-
-    </div>
+    </div>-->
 </body>
 
 </html>
