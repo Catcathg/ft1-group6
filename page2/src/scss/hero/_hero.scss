@@ -179,8 +179,7 @@ body{
     }
 
 
-
-    .fichemateriel{
+    .fichemateriel{   
         width: 1040px;
         height: 173px;
         border-radius: 8px;
@@ -190,8 +189,8 @@ body{
         margin-left: 36px;
         margin-top: 15px ;
         display: flex;
+        
 
-    }
     .imgdelamat{
         display: flex;
         width: 100px;
@@ -201,10 +200,15 @@ body{
         border-radius: 14px;
         border: 1px solid var(--rougerouge-50, #D2C5C7);
         background: var(--Blanc, #FFF);
-        padding: 15px 71px 14.83px 70px;
-
+        padding-left: 55px;
+        padding-top: 20px;
+        padding-right: 63px;
+        padding-bottom: 18px;
+        margin-top: 17px;
+        margin-left: 13px;
+        
     }
-
+    
     .fichebloc1{
         .infomat1{
             margin-top: 5px;
@@ -215,6 +219,9 @@ body{
         }
         .infomat3{
             margin-top: 20px;
+        img {
+            margin-left: 3px;
+        }
         }
     li{
         display: flex;
@@ -226,27 +233,32 @@ body{
     .textinfo{
         color: var(--noir, #000);
         font-family: Myriad Pro;
-        font-size: 20px;
+        font-size: 21px;
         font-style: normal;
         font-weight: 400;
         line-height: 20px;
         letter-spacing: 0.08px;
+        margin-top: 3px;
+
     }
     
     span{
         color: var(--noir, #000);
         font-family: Myriad Pro;
-        font-size: 20px;
+        font-size: 19px;
         font-style: normal;
         font-weight: 300;
         line-height: 20px;
         letter-spacing: 0.08px;
+        margin-left: 5px;
+        margin-top: 3px;
+
 
     }
     }
 
     .fichebloc2{
-        margin-top: 20px;
+        margin-top: 22px;
         margin-right: 0px;
         .infomat1{
             margin-top: 0px;
@@ -268,25 +280,31 @@ body{
     .textinfo{
         color: var(--noir, #000);
         font-family: Myriad Pro;
-        font-size: 20px;
+        font-size: 21px;
         font-style: normal;
         font-weight: 400;
         line-height: 20px; 
         letter-spacing: 0.08px;
+        margin-top: 2px;
     }
     
     span{
         color: var(--noir, #000);
         font-family: Myriad Pro;
-        font-size: 20px;
+        font-size: 19px;
         font-style: normal;
         font-weight: 300;
         line-height: 20px;
         letter-spacing: 0.08px;
+        margin-left: 3px;
+        margin-top: 2px;
+
+
     }
     
    
     }
+}
 
 
 

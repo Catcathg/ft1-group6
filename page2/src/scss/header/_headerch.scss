@@ -24,26 +24,23 @@ header {
     }
 
     .flecheretour {
-
         width: 56.25px;
         height: 60px;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 0px;
+
      }
 
     .textretour { 
         color: black;
         font-family: 'Myriad Pro', sans-serif;
-        font-size: 40px;
+        font-size: 38px;
         font-style: normal;
         font-weight: 300;
         line-height: normal;
         text-decoration:none;
-        width: 107px;
-        height: 48px;
-        margin-top: 24px;
+
     }
 
     .headpt2 {
@@ -80,6 +77,8 @@ header {
         font-style: normal;
         font-weight: 600;
         line-height: normal;
+        margin-right: 8px;
+
     }
 
     

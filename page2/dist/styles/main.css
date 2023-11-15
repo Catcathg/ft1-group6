@@ -26,19 +26,15 @@ header .flecheretour {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 0px;
 }
 header .textretour {
   color: black;
   font-family: "Myriad Pro", sans-serif;
-  font-size: 40px;
+  font-size: 38px;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
   text-decoration: none;
-  width: 107px;
-  height: 48px;
-  margin-top: 24px;
 }
 header .headpt2 {
   display: flex;
@@ -63,6 +59,7 @@ header .headpt3 {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  margin-right: 8px;
 }
 
 body {
@@ -218,7 +215,7 @@ body {
   margin-top: 15px;
   display: flex;
 }
-.hero .imgdelamat {
+.hero .fichemateriel .imgdelamat {
   display: flex;
   width: 100px;
   height: 100px;
@@ -227,79 +224,93 @@ body {
   border-radius: 14px;
   border: 1px solid var(--rougerouge-50, #D2C5C7);
   background: var(--Blanc, #FFF);
-  padding: 15px 71px 14.83px 70px;
+  padding-left: 55px;
+  padding-top: 20px;
+  padding-right: 63px;
+  padding-bottom: 18px;
+  margin-top: 17px;
+  margin-left: 13px;
 }
-.hero .fichebloc1 .infomat1 {
+.hero .fichemateriel .fichebloc1 .infomat1 {
   margin-top: 5px;
   margin-left: 2px;
 }
-.hero .fichebloc1 .infomat2 {
+.hero .fichemateriel .fichebloc1 .infomat2 {
   margin-top: 20px;
 }
-.hero .fichebloc1 .infomat3 {
+.hero .fichemateriel .fichebloc1 .infomat3 {
   margin-top: 20px;
 }
-.hero .fichebloc1 li {
+.hero .fichemateriel .fichebloc1 .infomat3 img {
+  margin-left: 3px;
+}
+.hero .fichemateriel .fichebloc1 li {
   display: flex;
 }
-.hero .fichebloc1 img {
+.hero .fichemateriel .fichebloc1 img {
   padding-right: 10px;
 }
-.hero .fichebloc1 .textinfo {
+.hero .fichemateriel .fichebloc1 .textinfo {
   color: var(--noir, #000);
   font-family: Myriad Pro;
-  font-size: 20px;
+  font-size: 21px;
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
   letter-spacing: 0.08px;
+  margin-top: 3px;
 }
-.hero .fichebloc1 span {
+.hero .fichemateriel .fichebloc1 span {
   color: var(--noir, #000);
   font-family: Myriad Pro;
-  font-size: 20px;
+  font-size: 19px;
   font-style: normal;
   font-weight: 300;
   line-height: 20px;
   letter-spacing: 0.08px;
+  margin-left: 5px;
+  margin-top: 3px;
 }
-.hero .fichebloc2 {
-  margin-top: 20px;
+.hero .fichemateriel .fichebloc2 {
+  margin-top: 22px;
   margin-right: 0px;
 }
-.hero .fichebloc2 .infomat1 {
+.hero .fichemateriel .fichebloc2 .infomat1 {
   margin-top: 0px;
   margin-left: 2px;
 }
-.hero .fichebloc2 .infomat2 {
+.hero .fichemateriel .fichebloc2 .infomat2 {
   margin-top: 20px;
 }
-.hero .fichebloc2 .infomat3 {
+.hero .fichemateriel .fichebloc2 .infomat3 {
   margin-top: 20px;
 }
-.hero .fichebloc2 li {
+.hero .fichemateriel .fichebloc2 li {
   display: flex;
 }
-.hero .fichebloc2 img {
+.hero .fichemateriel .fichebloc2 img {
   padding-right: 10px;
 }
-.hero .fichebloc2 .textinfo {
+.hero .fichemateriel .fichebloc2 .textinfo {
   color: var(--noir, #000);
   font-family: Myriad Pro;
-  font-size: 20px;
+  font-size: 21px;
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
   letter-spacing: 0.08px;
+  margin-top: 2px;
 }
-.hero .fichebloc2 span {
+.hero .fichemateriel .fichebloc2 span {
   color: var(--noir, #000);
   font-family: Myriad Pro;
-  font-size: 20px;
+  font-size: 19px;
   font-style: normal;
   font-weight: 300;
   line-height: 20px;
   letter-spacing: 0.08px;
+  margin-left: 3px;
+  margin-top: 2px;
 }
 
 /*# sourceMappingURL=main.css.map */
