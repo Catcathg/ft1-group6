@@ -8,22 +8,16 @@ body {
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
-
-    @media screen and (max-width:1280px) {
-        width: 100%;
-    }
 }
 
 /*********** MAP ************/
 #map {
-    width: 300px;
-    height: 680px;
+    width: 205px;
+    height: 1020px;
     position: relative;
-    margin-left: 120px;
-}
-
-.scroll {
-    overflow: hidden;
+    margin-left: 50px;
+    bottom: 1045px;
+    left: 1020px;
 }
 
 /*********** HEADER ************/
@@ -35,19 +29,17 @@ header#header {
         align-items: center;
         position: fixed;
         top: 0;
-        left: 0;
-        height: 68px;
+        height: 62px;
         border-bottom: 1px solid $border_color;
+        background-color: white;
 
-
-        .logo {
-            margin: 15px;
+        .container_nav {
+            display: flex;
         }
 
         ul {
-            margin: 0;
-            padding: 0;
             display: -webkit-box;
+            padding: 0px 0px 0px 80px;
         }
 
         li {
@@ -66,9 +58,14 @@ header#header {
         }
 
         .nav_right {
-            padding-left: 790px;
+            padding-left: 690px;
+            padding-top: 20px;
         }
 
+        .logo {
+            padding: 30px 0px;
+            margin: 20px;
+        }
 
         .polygon {
             position: relative;

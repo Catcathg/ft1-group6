@@ -2,7 +2,7 @@
 .burger {
     background-color: $gray_color;
     width: 219.6px;
-    height: 656px;
+    height: 730px;
     position: fixed;
 
     ul {
@@ -10,6 +10,7 @@
     }
 
     .list_burger {
+        margin: 0px 0px 0px 9.59px;
         a {
             color: $third_color;
             text-decoration: none;

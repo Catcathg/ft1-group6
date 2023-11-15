@@ -1,9 +1,42 @@
-nav {
-    
+html {
+    font-size: 62.5;
+}
 
+/*********** BODY ************/
+body {
+    font-size: 1.6rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
 
+header#header {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: white;
+        margin: 17px;
+        border: 1px solid $border_color;
 
-    span {
-        color: $primary__color
+        .nav_left {
+            display: flex;
+            align-items: center;
+            margin: 10px;
+
+            .contrat_text{
+                font-family: 'Inter', sans-serif;
+                font-size: 36px;
+                color: $primary__color;
+            }
+        }
+
+        .numero_client {
+            font-family: 'Myriad Pro', sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+            color: $primary__color;
+            margin: 20px;
+        }
     }
 }

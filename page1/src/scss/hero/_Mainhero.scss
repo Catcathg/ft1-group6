@@ -5,7 +5,7 @@
     .hero_nav {
         display: flex;
         align-items: center;
-        padding-bottom: 42px;
+        padding-bottom: 36px;
 
         h1 {
             font-family: 'Myriad Pro', sans-serif;
@@ -48,11 +48,16 @@
                 }
             }
 
-            .hero_date {
+            .hero_nav_right {
+                display: flex;
+                align-items: center;
                 font-family: 'Inter', sans-serif;
                 font-size: 14px;
                 color: $primary__color;
-                margin-left: 12px;
+
+                .hero_nav_icon_option {
+                    margin-left: 5px;
+                }
             }
         }
     }
@@ -61,7 +66,7 @@
 /*********** HERO CHANTIERS ************/
 .chantier {
     margin-left: 250px;
-    width: 684px;
+    width: 800px;
     height: 145px;
     display: flex;
     border: 1px solid #F0EDED;
@@ -71,10 +76,11 @@
 
     .container_chantier {
         display: -webkit-box;
-        padding-left: 20px;
         margin: 15px;
 
         .info_chantier {
+            margin: 0px 34px;
+
             .chantier_brand {
                 .text_logo_chantier {
                     font-family: 'Myriad Pro', sans-serif;
@@ -86,33 +92,65 @@
             }
 
             .info_brand {
-                width: 226px;
+                width: 280px;
                 height: 65px;
                 font-family: 'Myriad Pro', sans-serif;
                 font-size: 14px;
+                margin: 5px;
+
+                .localisation {
+                    display: flex;
+                    align-items: center;
+
+                    .adresse {
+                        margin: 5px;
+                    }
+                }
+
+                .numero_dossier {
+                    display: flex;
+                    align-items: center;
+
+                    .numero {
+                        margin: 5px;
+                    }
+                }
+
+                .date_dossier {
+                    display: flex;
+                    align-items: center;
+
+                    .date {
+                        margin: 5px;
+                    }
+                }
             }
         }
 
         .info_client {
-            display: grid;
+            margin: 40px;
 
             .contact {
-                padding: 10px;
+                text-transform: uppercase;
+                font-weight: 500;
+                margin: 0px 0px 5px 0px;
+            }
+
+            .prenom {
+                margin: 0px 0px 5px 0px;
             }
 
             .contact,
             .prenom {
-                font-family: 'Inter', sans-serif;
-                font-size: 11px;
+                font-family: 'Myriad Pro', sans-serif;
+                font-size: 14px;
                 color: $primary__color;
             }
 
             .text_info_client {
-                padding: 20px;
-
                 .numero {
-                    font-family: 'Inter', sans-serif;
-                    font-size: 10px;
+                    font-family: 'Myriad Pro', sans-serif;
+                    font-size: 14px;
                     color: $primary__color;
                 }
             }
@@ -121,14 +159,16 @@
 
         .materiel_louer {
             .text_materiel {
-                font-family: 'Inter', sans-serif;
-                font-size: 11px;
+                font-family: 'Myriad Pro', sans-serif;
+                font-size: 14px;
+                font-weight: 500;
+                text-transform: uppercase;
                 color: $primary__color;
-                padding: 10px;
+                padding: 15px;
             }
 
             .image_materiel {
-                padding: 5px 25px;
+                padding: 1px 55px;
             }
         }
 

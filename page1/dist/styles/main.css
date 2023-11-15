@@ -11,22 +11,15 @@ body {
   max-width: 1280px;
   margin: 0 auto;
 }
-@media screen and (max-width: 1280px) {
-  body {
-    width: 100%;
-  }
-}
 
 /*********** MAP ************/
 #map {
-  width: 300px;
-  height: 680px;
+  width: 205px;
+  height: 1020px;
   position: relative;
-  margin-left: 120px;
-}
-
-.scroll {
-  overflow: hidden;
+  margin-left: 50px;
+  bottom: 1045px;
+  left: 1020px;
 }
 
 /*********** HEADER ************/
@@ -42,17 +35,18 @@ header#header nav {
           align-items: center;
   position: fixed;
   top: 0;
-  left: 0;
-  height: 68px;
+  height: 62px;
   border-bottom: 1px solid #D6D4D4;
+  background-color: white;
 }
-header#header nav .logo {
-  margin: 15px;
+header#header nav .container_nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 header#header nav ul {
-  margin: 0;
-  padding: 0;
   display: -webkit-box;
+  padding: 0px 0px 0px 80px;
 }
 header#header nav li {
   list-style-type: none;
@@ -68,7 +62,12 @@ header#header nav a {
   display: contents;
 }
 header#header nav .nav_right {
-  padding-left: 790px;
+  padding-left: 690px;
+  padding-top: 20px;
+}
+header#header nav .logo {
+  padding: 30px 0px;
+  margin: 20px;
 }
 header#header nav .polygon {
   position: relative;
@@ -89,12 +88,15 @@ header#header nav .polygon-text {
 .burger {
   background-color: #3D3D3D;
   width: 219.6px;
-  height: 656px;
+  height: 730px;
   position: fixed;
   /*********** BURGER BOTTOM ************/
 }
 .burger ul {
   padding-left: 9px;
+}
+.burger .list_burger {
+  margin: 0px 0px 0px 9.59px;
 }
 .burger .list_burger a {
   color: white;
@@ -211,7 +213,7 @@ header#header nav .polygon-text {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-bottom: 42px;
+  padding-bottom: 36px;
 }
 .hero .hero_nav h1 {
   font-family: "Myriad Pro", sans-serif;
@@ -257,17 +259,25 @@ header#header nav .polygon-text {
 .hero .hero_nav .hero_nav_right .iconFond_hero_nav .icon_reverse {
   margin-left: 8px;
 }
-.hero .hero_nav .hero_nav_right .hero_date {
+.hero .hero_nav .hero_nav_right .hero_nav_right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-family: "Inter", sans-serif;
   font-size: 14px;
   color: black;
-  margin-left: 12px;
+}
+.hero .hero_nav .hero_nav_right .hero_nav_right .hero_nav_icon_option {
+  margin-left: 5px;
 }
 
 /*********** HERO CHANTIERS ************/
 .chantier {
   margin-left: 250px;
-  width: 684px;
+  width: 800px;
   height: 145px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -280,8 +290,10 @@ header#header nav .polygon-text {
 }
 .chantier .container_chantier {
   display: -webkit-box;
-  padding-left: 20px;
   margin: 15px;
+}
+.chantier .container_chantier .info_chantier {
+  margin: 0px 34px;
 }
 .chantier .container_chantier .info_chantier .chantier_brand .text_logo_chantier {
   font-family: "Myriad Pro", sans-serif;
@@ -291,40 +303,77 @@ header#header nav .polygon-text {
   color: #D2091E;
 }
 .chantier .container_chantier .info_chantier .info_brand {
-  width: 226px;
+  width: 280px;
   height: 65px;
   font-family: "Myriad Pro", sans-serif;
   font-size: 14px;
+  margin: 5px;
+}
+.chantier .container_chantier .info_chantier .info_brand .localisation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.chantier .container_chantier .info_chantier .info_brand .localisation .adresse {
+  margin: 5px;
+}
+.chantier .container_chantier .info_chantier .info_brand .numero_dossier {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.chantier .container_chantier .info_chantier .info_brand .numero_dossier .numero {
+  margin: 5px;
+}
+.chantier .container_chantier .info_chantier .info_brand .date_dossier {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.chantier .container_chantier .info_chantier .info_brand .date_dossier .date {
+  margin: 5px;
 }
 .chantier .container_chantier .info_client {
-  display: -ms-grid;
-  display: grid;
+  margin: 40px;
 }
 .chantier .container_chantier .info_client .contact {
-  padding: 10px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 0px 0px 5px 0px;
+}
+.chantier .container_chantier .info_client .prenom {
+  margin: 0px 0px 5px 0px;
 }
 .chantier .container_chantier .info_client .contact,
 .chantier .container_chantier .info_client .prenom {
-  font-family: "Inter", sans-serif;
-  font-size: 11px;
+  font-family: "Myriad Pro", sans-serif;
+  font-size: 14px;
   color: black;
 }
-.chantier .container_chantier .info_client .text_info_client {
-  padding: 20px;
-}
 .chantier .container_chantier .info_client .text_info_client .numero {
-  font-family: "Inter", sans-serif;
-  font-size: 10px;
+  font-family: "Myriad Pro", sans-serif;
+  font-size: 14px;
   color: black;
 }
 .chantier .container_chantier .materiel_louer .text_materiel {
-  font-family: "Inter", sans-serif;
-  font-size: 11px;
+  font-family: "Myriad Pro", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
   color: black;
-  padding: 10px;
+  padding: 15px;
 }
 .chantier .container_chantier .materiel_louer .image_materiel {
-  padding: 5px 25px;
+  padding: 1px 55px;
 }
 .chantier .container_chantier .line {
   padding: 12px;
