@@ -7,14 +7,26 @@ html {
 /*********** BODY ************/
 body {
   font-size: 1.6rem;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1280px) {
+  body {
+    width: 100%;
+  }
 }
 
 /*********** MAP ************/
 #map {
-  width: 360px;
+  width: 300px;
   height: 680px;
   position: relative;
-  margin-left: 140px;
+  margin-left: 120px;
+}
+
+.scroll {
+  overflow: hidden;
 }
 
 /*********** HEADER ************/
@@ -25,21 +37,22 @@ header#header nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: fixed;
   top: 0;
   left: 0;
-  height: 64px;
+  height: 68px;
   border-bottom: 1px solid #D6D4D4;
 }
 header#header nav .logo {
-  margin: 10px;
+  margin: 15px;
 }
 header#header nav ul {
   margin: 0;
   padding: 0;
+  display: -webkit-box;
 }
 header#header nav li {
   list-style-type: none;
@@ -55,7 +68,7 @@ header#header nav a {
   display: contents;
 }
 header#header nav .nav_right {
-  padding-left: 762px;
+  padding-left: 790px;
 }
 header#header nav .polygon {
   position: relative;
@@ -267,9 +280,8 @@ header#header nav .polygon-text {
 }
 .chantier .container_chantier {
   display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-left: 50px;
+  padding-left: 20px;
+  margin: 15px;
 }
 .chantier .container_chantier .info_chantier .chantier_brand .text_logo_chantier {
   font-family: "Myriad Pro", sans-serif;
@@ -305,13 +317,13 @@ header#header nav .polygon-text {
   font-size: 10px;
   color: black;
 }
-.chantier .container_chantier .materiel_louer .text_meteriel {
+.chantier .container_chantier .materiel_louer .text_materiel {
   font-family: "Inter", sans-serif;
   font-size: 11px;
   color: black;
   padding: 10px;
 }
-.chantier .container_chantier .materiel_louer .image_meteriel {
+.chantier .container_chantier .materiel_louer .image_materiel {
   padding: 5px 25px;
 }
 .chantier .container_chantier .line {

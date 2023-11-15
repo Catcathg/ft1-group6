@@ -5,16 +5,26 @@ html {
 /*********** BODY ************/
 body {
     font-size: 1.6rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+
+    @media screen and (max-width:1280px) {
+        width: 100%;
+    }
 }
 
 /*********** MAP ************/
 #map {
-    width: 360px; 
-    height: 680px; 
-    position:relative; 
-    margin-left: 140px;
+    width: 300px;
+    height: 680px;
+    position: relative;
+    margin-left: 120px;
 }
 
+.scroll {
+    overflow: hidden;
+}
 
 /*********** HEADER ************/
 header#header {
@@ -22,20 +32,22 @@ header#header {
 
     nav {
         display: flex;
-        justify-content: space-between;
+        align-items: center;
         position: fixed;
         top: 0;
         left: 0;
-        height: 64px;
+        height: 68px;
         border-bottom: 1px solid $border_color;
 
+
         .logo {
-            margin: 10px;
+            margin: 15px;
         }
 
         ul {
             margin: 0;
             padding: 0;
+            display: -webkit-box;
         }
 
         li {
@@ -54,7 +66,7 @@ header#header {
         }
 
         .nav_right {
-            padding-left: 762px;
+            padding-left: 790px;
         }
 
 

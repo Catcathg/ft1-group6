@@ -55,7 +55,6 @@
                 margin-left: 12px;
             }
         }
-
     }
 }
 
@@ -70,10 +69,10 @@
     box-shadow: 2px 2px 2px $border_color;
     margin-bottom: 27px;
 
-
     .container_chantier {
-        display: flex;
-        padding-left: 50px;
+        display: -webkit-box;
+        padding-left: 20px;
+        margin: 15px;
 
         .info_chantier {
             .chantier_brand {
@@ -121,14 +120,14 @@
         }
 
         .materiel_louer {
-            .text_meteriel {
+            .text_materiel {
                 font-family: 'Inter', sans-serif;
                 font-size: 11px;
                 color: $primary__color;
                 padding: 10px;
             }
 
-            .image_meteriel {
+            .image_materiel {
                 padding: 5px 25px;
             }
         }
