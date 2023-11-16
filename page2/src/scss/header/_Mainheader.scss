@@ -1,0 +1,39 @@
+html {
+    font-size: 62.5;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+header#header {
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: 1px solid $nav_border_color;
+        background-color: white;
+
+        .nav_left {
+            display: flex;
+            align-items: center;
+
+            a {
+                text-decoration: none;
+                font-family: 'Myriad Pro', sans-serif;
+                font-size: 40px;
+                font-weight: lighter;
+                color: $primary_color;
+            }
+        }
+
+        .nav_right {
+            font-family: 'Myriad Pro', sans-serif;
+            font-size: 20px;
+            color: $primary_color;
+            font-weight: bold;
+            margin: 0px 15px;
+        }
+    }
+}
+   

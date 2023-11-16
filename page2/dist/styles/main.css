@@ -1,0 +1,206 @@
+html {
+  font-size: 62.5;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+header#header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px solid #D6D4D4;
+  background-color: white;
+}
+header#header nav .nav_left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header#header nav .nav_left a {
+  text-decoration: none;
+  font-family: "Myriad Pro", sans-serif;
+  font-size: 40px;
+  font-weight: lighter;
+  color: black;
+}
+header#header nav .nav_right {
+  font-family: "Myriad Pro", sans-serif;
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+  margin: 0px 15px;
+}
+
+.hero {
+  background-color: #F7F6F5;
+}
+.hero .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.hero .container .info_chantier {
+  width: 865px;
+  height: 330px;
+  border: 1px solid #D23243;
+  border-radius: 10px;
+  margin-top: 57px;
+}
+.hero .container .info_chantier .nav_info_chantier {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.hero .container .info_chantier .nav_info_chantier span {
+  font-family: "Myriad Pro", sans-serif;
+  font-size: 32px;
+  margin: 8px 11px;
+  color: black;
+}
+.hero .container .info_chantier .nav_info_chantier .icon_pen {
+  margin: 11px;
+}
+.hero .container .info_chantier .info_box {
+  padding-left: 39px;
+  font-family: "Myriad Pro", sans-serif;
+  font-size: 24px;
+  font-weight: lighter;
+  color: black;
+  margin: 10px 0px;
+}
+.hero .container .info_chantier .info_box .info {
+  margin-bottom: 36px;
+}
+.hero .container .info_chantier .cercle {
+  width: 235px;
+  height: 235px;
+  border: 1px solid #D23243;
+  border-radius: 180px;
+}
+.hero .container .info_chantier .cercle .map {
+  background-repeat: no-repeat;
+  position: absolute;
+}
+.hero .info_materiel {
+  width: 1159px;
+  height: 375px;
+  border-radius: 10px;
+  overflow-y: scroll;
+  border: 1px solid #D23243;
+  margin: 38px 80px;
+}
+.hero .info_materiel .nav_info_materiel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.hero .info_materiel .nav_info_materiel span {
+  margin: 14px 24px;
+  font-family: "Myriad Pro", sans-serif;
+  font-size: 32px;
+  color: black;
+}
+.hero .info_materiel .nav_info_materiel .nav_info_materiel_right {
+  margin: 25px 23px;
+}
+.hero .info_materiel .container_info_materiel {
+  width: 1090px;
+  height: 260px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border: 1px solid #BDBBBB;
+  border-radius: 8px;
+  margin: 0px 20px;
+  margin-bottom: 29px;
+  font-family: "Myriad Pro", sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  color: black;
+}
+.hero .info_materiel .container_info_materiel .image_materiel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 250px;
+  height: 145.83px;
+  border: 1px solid #D2C5C7;
+  border-radius: 14px;
+  background-color: white;
+}
+.hero .info_materiel .container_info_materiel .info_materiel_box2 .date {
+  display: inline-table;
+  margin: 0px 20px;
+}
+.hero .info_materiel .container_info_materiel .info_materiel_box2 .date #special_text {
+  padding-left: 40px;
+}
+.hero .mediatheque_box {
+  width: 1159px;
+  height: 330px;
+  border: 1px solid #D23243;
+  border-radius: 10px;
+  margin: 38px 80px;
+}
+.hero .mediatheque_box .image_mediatheque {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 59px;
+}
+.hero .mediatheque_box .text_mediatheque {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Myriad Pro", sans-serif;
+  font-size: 36px;
+  color: black;
+}
